@@ -14,9 +14,9 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link as={NavLink} to={"/categoria/MUJER"} href="#features">Mujer</Nav.Link>
-                        <Nav.Link as={NavLink} to={"/categoria/HOMBRE"} href="#pricing">Hombre</Nav.Link>
-                        <Nav.Link as={NavLink} to={"/categoria/NENES"} href="#pricing">Niñeces</Nav.Link>
+                        <Nav.Link as={NavLink} to={"/categoria/mujer"} href="#features">Mujer</Nav.Link>
+                        <Nav.Link as={NavLink} to={"/categoria/hombre"} href="#pricing">Hombre</Nav.Link>
+                        <Nav.Link as={NavLink} to={"/categoria/nenes"} href="#pricing">Niñeces</Nav.Link>
                     </Nav>
                     <Nav>
                         <Nav.Link as={NavLink} to={"/*"} href="#deets">Contactanos</Nav.Link>
