@@ -20,7 +20,7 @@ const NavBar = () => {
                     </Nav>
                     <Nav>
                         <Nav.Link as={NavLink} to={"/*"} href="#deets">Contactanos</Nav.Link>
-                        <Nav.Link as={NavLink} to={"/*"} eventKey={2} href="#memes">
+                        <Nav.Link as={NavLink} to={"/iniciarSesion"} eventKey={2} href="#memes">
                             Iniciar sesión
                         </Nav.Link>
                     </Nav>
